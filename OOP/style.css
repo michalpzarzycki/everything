@@ -1,0 +1,37 @@
+#display {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+div {
+  
+}
+.box {
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+    text-align: center;
+
+ 
+ 
+
+}
+
+.box:first-child {
+    background: yellow;
+}
+
+.item {
+    border: 2px solid black;
+    padding: 20px;
+    width: 25%;
+}
+
+.box:last-child {
+    border-bottom: 2px solid black;
+}
